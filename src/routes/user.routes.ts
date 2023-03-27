@@ -15,7 +15,7 @@ app.post("/", validationsRequired, cpfMiddlewares, new UserController().includeU
 //                          -------
 
 // GET http://localhost:7007/users -> Esta rota retorna todos os usuários, também possui filtros de busca via query params para buscar um usuário existente através do name, email ou cpf.
-app.get("/", new UserController().getUsers);
+//app.get("/", new UserController().getUsers);
 
 //                          -------
 
